@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Sender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Upload CSV</h1>
+    <form action="/upload-csv" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required />
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
